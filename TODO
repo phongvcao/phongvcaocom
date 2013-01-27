@@ -1,0 +1,80 @@
+- DONE: Change home.html fonts to Ubuntu
+- DONE: Change about.html fonts to Gemantic Basic
+- DONE: Change resume.html fonts to Ubuntu
+- DONE: Change software_portfolio.html fonts to Gemantic Basic
+- DONE: Change design_portfolio.html fonts to Gemantic Basic
+
+- NOT IMPLEMENT: Switch linkedin, twitter, facebook to true text 
+  using @font-face instead of images.
+  => REASONS: Fonts' copyrights
+  
+- DONE: Create shadow for Live Tiles buttons
+
+1. Friday 01/25/13
+- DONE: finish implementing jQuery Cycle
+   
+- DONE: Deploy the new phongvcao.com
+
+- DONE: Switch position Software Portfolio & Resume... :D
+  (maybe not? - we'll see)
+
+- DONE: dingoprojectorg quadruple-slot should have caption background
+  something like dark red or red brown
+  
+- DONE: phongvcaocom quadruple-slot should have caption background smt
+  like dark yellow
+  
+- DONE: Change all nature pictures to software pictures
+  When hovering over the pictures keep changing around a
+  set of images.
+  
+- DONE: When hovering over there will also be a capture text element
+  and it also changes accordingly to the pictures.
+
+- DONE: Getting Django up and running: http://roshanbook.wordpress.com/2011/11/08/getting-django-up-and-running-on-hostgator/
+
+
+2. Saturday 01/26/13
+  
+- DONE: CSS Sprite everything in home.html
+     
+- NOT IMPLEMENT: Shadow for about.html, design_portfolio.html, software_portfolio.html, resume.html
+
+- DONE: When hovering over the slideshows' headers the texts are
+  underlined.
+
+- DONE: Edit "line-height" for about.html and design_portfolio.html
+
+- DONE: Edit design_portfolio.html so that font size is almost the 
+  same as software_portfolio.html.
+
+- Edit resume (You can get it from crocodoc).
+
+- Edit content of *.html pages so it matches your status now
+  + Add dingo-project.org to design_portfolio.html
+  + Add dingo-project.org, dingo to software_portfolio.html
+  + Add the new phongvcao.com to software_portfolio.html
+  
+- Create 404.html and 505.html
+  (same background but shadow-box like all the transparency boxes.
+  When hovering over -> change color and opacity = 1
+  When clicking -> back to homepage
+
+- Implement clickable anchor links for design_portfolio.html instead
+  of just underlining.
+
+- Implement "View ... Source Code", "Go to ... Website" and 
+  "Download ... Software" for software_portfolio.html. 
+  (use soft_portfolio_flow.imageID
+  
+- Social-sites subpage implement /subpage/
+
+- Make sprites look sharper (Especially twitter icon)
+
+- Create *.html for redirecting to other social networking profiles.
+
+- Implement Google Analytics & Webmaster
+
+- Create INSTALL and other packaging notes
+
+* REMEMBER: git rm $(git ls-files --deleted)

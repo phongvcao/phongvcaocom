@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>{% block title %}{% endblock %}</title>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <link rel="shortcut icon" href="/static/images/base/favicon.ico" type="image/x-icon" />
+    
+    {% block fonts %}{% endblock %}
+    
+    {# We will use Ubuntu for sans-serif #}
+    {% if sans_serif %}
+      <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700' rel='stylesheet' type='text/css'>
+    {% endif %}
+    
+    {# We will use Gentium Basic for serifs #}
+    {# font-family: 'Gentium Basic', serif #}
+    {% if serifs %}
+      <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,700' rel='stylesheet' type='text/css'>
+    {% endif %}
+    
+    <link rel="stylesheet" type="text/css" href="/static/css/base.css" />
+    
+    {% block libs %}{% endblock %}
+    
+    {% block static %}{% endblock %}
+    
+    <noscript>
+      <div id="noscript">
+        <p class="noscript">
+          WARNING: Your web browser's JavaScript was DISABLED.
+        </p>
+      
+        <p class="noscript">
+          This webpage needs JavaScript ENABLED to function 
+          properly.
+        </p>
+      
+        <p class="noscript">
+          <a href="http://www.activatejavascript.org/" target="_blank" style="text-decoration:underline; color:blue;">Please click here</a> for instruction on how to ENABLE 
+          JavaScript in your browser.
+        </p>
+      </div>
+    </noscript>
+    
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-33166297-2']);
+      _gaq.push(['_setDomainName', 'phongvcao.com']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  
+  <body>
+    <div id="main-body">
+    {% block content %}{% endblock %}
+    </div>
+  </body>
+</html>

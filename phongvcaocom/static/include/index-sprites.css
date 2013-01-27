@@ -1,0 +1,148 @@
+.linkedin-logo-default, .linkedin-logo-over, .twitter-logo-default, .twitter-logo-over, .champa-over, .champa-default, .vinpearl-over, .vinpearl-default, .facebook-logo-default, .facebook-logo-over, .temple-of-literature-over, .temple-of-literature-default, .wordpress-logo-default, .wordpress-logo-over, .hanoi-opera-house-over, .hanoi-opera-house-default, .golf-over, .golf-default, .github-logo-default, .github-logo-over, .nem-vietnam-over, .nem-vietnam-default, .halong-bay-over, .halong-bay-default{
+	background: url(sprites.png) no-repeat;
+}
+
+.linkedin-logo-default{
+	background-position: 0 0;
+	width: 196px;
+	height: 196px;
+}
+
+.linkedin-logo-over{
+	background-position: -200px 0;
+	width: 196px;
+	height: 196px;
+}
+
+.twitter-logo-default{
+	background-position: 0 -200px ;
+	width: 196px;
+	height: 196px;
+}
+
+.twitter-logo-over{
+	background-position: -200px -200px ;
+	width: 196px;
+	height: 196px;
+}
+
+.champa-over{
+	background-position: -400px 0;
+	width: 396px;
+	height: 396px;
+}
+
+.champa-default{
+	background-position: -800px 0;
+	width: 396px;
+	height: 396px;
+}
+
+.vinpearl-over{
+	background-position: 0 -400px ;
+	width: 196px;
+	height: 196px;
+}
+
+.vinpearl-default{
+	background-position: -200px -400px ;
+	width: 196px;
+	height: 196px;
+}
+
+.facebook-logo-default{
+	background-position: -400px -400px ;
+	width: 196px;
+	height: 196px;
+}
+
+.facebook-logo-over{
+	background-position: -600.0000152587891px -400px ;
+	width: 196px;
+	height: 196px;
+}
+
+.temple-of-literature-over{
+	background-position: -800.0000152587891px -400px ;
+	width: 196px;
+	height: 196px;
+}
+
+.temple-of-literature-default{
+	background-position: -1000.0000305175781px -400px ;
+	width: 196px;
+	height: 196px;
+}
+
+.wordpress-logo-default{
+	background-position: 0 -600px ;
+	width: 196px;
+	height: 196px;
+}
+
+.wordpress-logo-over{
+	background-position: -200.00003051757812px -600px ;
+	width: 196px;
+	height: 196px;
+}
+
+.hanoi-opera-house-over{
+	background-position: -400.00001525878906px -600px ;
+	width: 396px;
+	height: 196px;
+}
+
+.hanoi-opera-house-default{
+	background-position: -800.0000152587891px -600px ;
+	width: 396px;
+	height: 196px;
+}
+
+.golf-over{
+	background-position: 0 -800px ;
+	width: 196px;
+	height: 196px;
+}
+
+.golf-default{
+	background-position: -200px -801px ;
+	width: 196px;
+	height: 196px;
+}
+
+.github-logo-default{
+	background-position: -401px -800px ;
+	width: 196px;
+	height: 396px;
+}
+
+.github-logo-over{
+	background-position: -600px -800px ;
+	width: 196px;
+	height: 396px;
+}
+
+.nem-vietnam-over{
+	background-position: -799px -800px ;
+	width: 196px;
+	height: 396px;
+}
+
+.nem-vietnam-default{
+	background-position: -999px -801px ;
+	width: 196px;
+	height: 396px;
+}
+
+.halong-bay-over{
+	background-position: 0 -1002px ;
+	width: 196px;
+	height: 196px;
+}
+
+.halong-bay-default{
+	background-position: -199px -1002px ;
+	width: 196px;
+	height: 196px;
+}
+

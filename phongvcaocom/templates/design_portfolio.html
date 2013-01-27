@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block title %}Phong V. Cao &rsaquo;&rsaquo; Design Portfolio{% endblock %}
+
+{% block fonts %}
+  <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,700' rel='stylesheet' type='text/css'>
+{% endblock %}
+
+{% block libs %}
+  <script type="text/javascript" src="/static/include/jquery/jquery-1.9.0.js"></script>
+  
+  <script type="text/javascript" src="/static/include/jquery-mousewheel/jquery.mousewheel.js"></script>
+    
+  <script type="text/javascript" src="/static/include/cloud-carousel/cloud-carousel.1.0.5.js"></script>
+  
+  <!-- 
+    Cloud Carousel, Copyright (c) 2010, R Cecco, www.professorcloud.com
+    Licensed under the MIT License
+
+    Permission is hereby granted, free of charge, to any person obtaining 
+    a copy of this software and associated documentation files (the     
+    "Software"), to deal in the Software without restriction, including 
+    without limitation the rights to use, copy, modify, merge, publish, 
+    distribute, sublicense, and/or sell copies of the Software, and to 
+    permit persons to whom the Software is furnished to do so, subject 
+    to the following conditions:
+
+    The above copyright notice and this permission notice shall be 
+    included in all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+    OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF 
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+    IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY 
+    CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
+    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+    SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
+    -->
+{% endblock %}
+
+{% block static %}
+  <link rel="stylesheet" type="text/css" href="/static/css/design_portfolio.css" />
+  
+  <script type="text/javascript" src="/static/jquery/design_portfolio.js"></script>
+{% endblock %}
+
+{% block content %}
+    <div id = "design-portfolio-carousel">            
+      <!-- All images with class of "cloudcarousel" will be turned into carousel items -->
+      <!-- You can place links around these images -->
+      <img class="cloudcarousel" src="/static/images/design/phongvcao_instruction.jpg" alt="" title="Portfolio Instruction" />
+      
+      <img class="cloudcarousel" src="/static/images/design/phongvcao_home.jpg" alt="My favorite design project! By the end of my sophomore year in college I figured out that I needed a place better than Linkedin or Facebook or Wordpress to showoff my workcase. &lt;u&gt;phongvcao.com&lt;/u&gt; was inspired by Windows Phone 7 Live Tiles Interface. &lt;u&gt;Technologies Used:&lt;/u&gt; HTML, CSS, JavaScript, jQuery, GIMP." title="Phong Cao's Personal Website" />
+      
+      <img class="cloudcarousel" src="/static/images/design/phongvcao_llbean-spread1.jpg" alt="One of my class design projects, consisting of 2 spreads (This image is SPREAD 1). The artwork helps promote LLBean 2012 Winter Collection. It demonstrates my ability to integrate different font types and layout strategy to create an eye-catchy newsletter. &lt;u&gt;Technologies Used:&lt;/u&gt; Adobe InDesign CS5.5, Adobe Photoshop CS5.5." title="LLBean Newsletter - Spread 1" />
+      
+      <img class="cloudcarousel" src="/static/images/design/phongvcao_environmental-ads.jpg" alt="My favorite class design project! This advertisement promotes EDF campaign of raising awareness among Americans about the danger of environmental pollution. It demonstrates my conceptual-design ability. &lt;u&gt;Technologies Used:&lt;/u&gt; Adobe InDesign CS5.5." title="Environmental Defense Fund Advertisement" />
+      
+      <img class="cloudcarousel" src="/static/images/design/phongvcao_past-future-lives.jpg" alt="My first Adobe InDesign Project! This artwork tries to advertise an imaginary (by my instructor) documentation movie show called HER PAST & FUTURE LIVES. It demonstrates my ability to use different font sizes and type faces to highlight and draw the readers' attention to the event. &lt;u&gt;Technologies Used:&lt;/u&gt; Adobe InDesign CS5.5." title="Her Past & Future Lives Advertisement" />
+      
+      <img class="cloudcarousel" src="/static/images/design/phongvcao_tollbrothers-ads.jpg" alt="One of my design class's projects. This brochure helps promotes Toll Brothers, a large business specializing in building luxury houses in the United States. The project demonstrates my uses of different typefaces and layouts to create a beautiful and eye-catchy brochure. &lt;u&gt;Technologies Used:&lt;/u&gt; Adobe InDesign CS5.5, Adobe Photoshop CS5.5." title="Toll Brothers Brochure" />
+      
+      <img class="cloudcarousel" src="/static/images/design/phongvcao_llbean-spread2.jpg" alt="One of my class design projects, consisting of 2 spreads (This image is SPREAD 2). The artwork helps promote LLBean 2012 Winter Collection. It demonstrates my ability to integrate different font types and layout strategy to create an eye-catchy newsletter. &lt;u&gt;Technologies Used:&lt;/u&gt; Adobe InDesign CS5.5, Adobe Photoshop CS5.5." title="LLBean Newsletter - Spread 2" />
+      
+      <img class="cloudcarousel" src="/static/images/design/phongvcao_ground-for-sculpture.jpg" alt="The final project for my design class. It is a two-page magazine advertisement for Ground for Sculpture - a New Jersey sculpture garden displays works by American and international sculptors in a variety of styles and media. It demonstrates all sort of my design & InDesign skills. &lt;u&gt;Technologies Used:&lt;/u&gt; Adobe InDesign CS5.5." title="Ground for Sculpture Advertisement" />
+    
+      <!-- Define elements to accept the alt and title text from the images. -->
+      
+      <div id="info">
+        <a id="portfolio-download" href="http://www.mediafire.com/?re5zzl7xs5bmjq3" target="_blank">
+          <img id="portfolio-download-icon" src="/static/images/design/design-portfolio_download.png" alt="" title="Download Portfolio" />
+        </a>
+        
+        <div id="text">
+          <p id="title-text"></p>
+
+          <p id="alt-text"></p>
+        </div>
+      </div>
+    </div>
+{% endblock %}

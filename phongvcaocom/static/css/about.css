@@ -1,0 +1,57 @@
+body {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+}
+
+h1 {
+  font-family: 'Ubuntu', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #505050;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+#introduction-1, #introduction-2 {
+  font-family: 'Gentium Basic', serif;
+  text-align: justify;
+  margin-right: 100px;
+  text-indent: 20px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+#introduction-3 {
+  font-family: 'Gentium Basic', serif;
+  text-align: justify;
+  margin-right: 20px;
+  text-indent: 20px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+li, .content {
+  font-family: 'Gentium Basic', serif;
+  font-size: 16px;
+  text-align: left;
+  padding-bottom: 1px;
+  line-height: 22px;
+}
+
+.sub-headers {
+  font-family: 'Ubuntu', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+  color: #505050;
+  padding-bottom: 5px;
+}
+
+#phongcao-photo {
+  position: relative;
+  float: right;
+  margin: 0px 20px 20px 20px;
+}

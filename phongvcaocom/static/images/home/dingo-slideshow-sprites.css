@@ -1,0 +1,70 @@
+.dingo-edit-single-track, .dingo-lyrics, .dingo-playlist-manager, .dingo-repeat-section, .dingo-settings-save-to-file, .dingo-shuffle, .dingo-sound-menu-integration, .dingo-subtitle-autosaved, .dingo-subtitle-font-chooser, .dingo-tracks-membership-manager, .dingo-video-playback{
+	background: url(sprites.png) no-repeat;
+}
+
+.dingo-edit-single-track{
+	background-position: -400px -801px ;
+	width: 396px;
+	height: 396px;
+}
+
+.dingo-lyrics{
+	background-position: -399px -400px ;
+	width: 396px;
+	height: 396px;
+}
+
+.dingo-playlist-manager{
+	background-position: -1200px -401px ;
+	width: 396px;
+	height: 396px;
+}
+
+.dingo-repeat-section{
+	background-position: -801px 0;
+	width: 396px;
+	height: 396px;
+}
+
+.dingo-settings-save-to-file{
+	background-position: -800px -800px ;
+	width: 396px;
+	height: 395px;
+}
+
+.dingo-shuffle{
+	background-position: 0 -400px ;
+	width: 396px;
+	height: 396px;
+}
+
+.dingo-sound-menu-integration{
+	background-position: -1200px 0;
+	width: 396px;
+	height: 396px;
+}
+
+.dingo-subtitle-autosaved{
+	background-position: -800px -400px ;
+	width: 396px;
+	height: 396px;
+}
+
+.dingo-subtitle-font-chooser{
+	background-position: 0 -799px ;
+	width: 396px;
+	height: 396px;
+}
+
+.dingo-tracks-membership-manager{
+	background-position: -400px 0;
+	width: 396px;
+	height: 392px;
+}
+
+.dingo-video-playback{
+	background-position: 0 0;
+	width: 396px;
+	height: 396px;
+}
+

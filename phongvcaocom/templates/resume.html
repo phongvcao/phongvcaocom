@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Phong V. Cao &rsaquo;&rsaquo; Resume{% endblock %}
+
+{% block fonts %}
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700' rel='stylesheet' type='text/css'>
+{% endblock %}
+
+{% block static %}
+  <link rel="stylesheet" type="text/css" href="/static/css/resume.css" />
+{% endblock %}
+
+{% block content %}
+   <span id="resume-title" class="resume-texts">
+        Phong Cao's Resume
+      </span>
+      
+      <a id="save-file-logo-anchor" class="resume-texts" href="/media/resume/pdfs/Phong_V_Cao_Resume_SBU.pdf" target="_blank" style="text-decoration:none; color: white">
+        Download Resume
+      </a>
+    
+      <br />
+      <br />
+      
+      <iframe id="crocodoc" src="http://personal.crocodoc.com/ojzKGT6?embedded=true" width="845" height="490"></iframe>
+{% endblock %}

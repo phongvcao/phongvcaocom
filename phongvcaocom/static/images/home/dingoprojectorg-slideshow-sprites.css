@@ -1,0 +1,70 @@
+.dingoprojectorg-about-features, .dingoprojectorg-archives-detail, .dingoprojectorg-download, .dingoprojectorg-help-faq, .dingoprojectorg-home, .dingoprojectorg-logo, .dingoprojectorg-screenshots-bottom, .dingoprojectorg-screenshots-fedora, .dingoprojectorg-screenshots-top, .dingoprojectorg-screenshots-ubuntu, .dingoprojectorg-sitemap{
+	background: url(sprites.png) no-repeat;
+}
+
+.dingoprojectorg-about-features{
+	background-position: -799px 0;
+	width: 396px;
+	height: 396px;
+}
+
+.dingoprojectorg-archives-detail{
+	background-position: -800px -800px ;
+	width: 396px;
+	height: 396px;
+}
+
+.dingoprojectorg-download{
+	background-position: -1197px 0;
+	width: 396px;
+	height: 395px;
+}
+
+.dingoprojectorg-help-faq{
+	background-position: -401px -799px ;
+	width: 396px;
+	height: 396px;
+}
+
+.dingoprojectorg-home{
+	background-position: -400px -400px ;
+	width: 396px;
+	height: 396px;
+}
+
+.dingoprojectorg-logo{
+	background-position: -1199px -400px ;
+	width: 396px;
+	height: 396px;
+}
+
+.dingoprojectorg-screenshots-bottom{
+	background-position: 0 -800px ;
+	width: 396px;
+	height: 396px;
+}
+
+.dingoprojectorg-screenshots-fedora{
+	background-position: -799px -400px ;
+	width: 396px;
+	height: 396px;
+}
+
+.dingoprojectorg-screenshots-top{
+	background-position: 0 -399px ;
+	width: 396px;
+	height: 396px;
+}
+
+.dingoprojectorg-screenshots-ubuntu{
+	background-position: -400px 0;
+	width: 395px;
+	height: 396px;
+}
+
+.dingoprojectorg-sitemap{
+	background-position: 0 0;
+	width: 396px;
+	height: 396px;
+}
+

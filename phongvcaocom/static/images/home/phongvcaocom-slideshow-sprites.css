@@ -1,0 +1,40 @@
+.phongvcaocom-about, .phongvcaocom-design_portfolio, .phongvcaocom-home, .phongvcaocom-resume, .phongvcaocom-slideshows, .phongvcaocom-software_portfolio{
+	background: url(sprites.png) no-repeat;
+}
+
+.phongvcaocom-about{
+	background-position: 0 0;
+	width: 396px;
+	height: 396px;
+}
+
+.phongvcaocom-design_portfolio{
+	background-position: 0 -398px ;
+	width: 396px;
+	height: 396px;
+}
+
+.phongvcaocom-home{
+	background-position: -398px 0;
+	width: 396px;
+	height: 396px;
+}
+
+.phongvcaocom-resume{
+	background-position: -796px -398px ;
+	width: 396px;
+	height: 396px;
+}
+
+.phongvcaocom-slideshows{
+	background-position: -796px 0;
+	width: 396px;
+	height: 396px;
+}
+
+.phongvcaocom-software_portfolio{
+	background-position: -398px -398px ;
+	width: 396px;
+	height: 396px;
+}
+

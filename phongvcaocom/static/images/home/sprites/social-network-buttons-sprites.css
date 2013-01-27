@@ -1,0 +1,76 @@
+.facebook-logo-over, .facebook-logo-default, .github-logo-over-1, .github-logo-default, .linkedin-logo-over, .linkedin-logo-default, .twitter-logo-default, .twitter-logo-over, .champa-default, .champa-over, .wordpress-logo-default, .wordpress-logo-over{
+	background: url(sprites.png) no-repeat;
+}
+
+.facebook-logo-over{
+	background-position: 0 0;
+	width: 196px;
+	height: 196px;
+}
+
+.facebook-logo-default{
+	background-position: -200px 0;
+	width: 196px;
+	height: 196px;
+}
+
+.github-logo-over-1{
+	background-position: 0 -199px ;
+	width: 196px;
+	height: 196px;
+}
+
+.github-logo-default{
+	background-position: -200px -200px ;
+	width: 196px;
+	height: 196px;
+}
+
+.linkedin-logo-over{
+	background-position: 0 -398px ;
+	width: 196px;
+	height: 196px;
+}
+
+.linkedin-logo-default{
+	background-position: -200px -400px ;
+	width: 196px;
+	height: 196px;
+}
+
+.twitter-logo-default{
+	background-position: -600px 0;
+	width: 196px;
+	height: 196px;
+}
+
+.twitter-logo-over{
+	background-position: -400px 0;
+	width: 196px;
+	height: 196px;
+}
+
+.champa-default{
+	background-position: -400px -399px ;
+	width: 196px;
+	height: 196px;
+}
+
+.champa-over{
+	background-position: -599px -399px ;
+	width: 196px;
+	height: 196px;
+}
+
+.wordpress-logo-default{
+	background-position: -600px -200px ;
+	width: 196px;
+	height: 196px;
+}
+
+.wordpress-logo-over{
+	background-position: -400px -199px ;
+	width: 196px;
+	height: 196px;
+}
+

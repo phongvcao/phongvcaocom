@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+}
+
+/* Customized Style */
+#design-portfolio-carousel {
+  width: 1100px; 
+  height: 550px;
+  background-color: black;
+  overflow: scroll;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  z-index: 1;
+}
+
+p {
+  color: white;
+}
+
+#info {
+  display: inline;
+}
+
+#title-text {
+  font-family: 'Gentium Basic', serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 425px;
+  padding-left: 64px;
+  margin-bottom: 10px;
+}
+
+#alt-text {
+  font-family: 'Gentium Basic', serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: justify;
+  width: 750px;
+  margin-left: 175px;
+  line-height: 22px;
+}
+
+#portfolio-download {
+  float: right;
+  margin-top: 480px;
+}
+
+#portfolio-download-icon {
+  border-width: 5px;
+  border-style: solid;
+  border-color: #DCDCDC;
+  border-radius: 4px;
+  padding: 3px 10px 3px 10px;
+  margin-top: 10px;
+}

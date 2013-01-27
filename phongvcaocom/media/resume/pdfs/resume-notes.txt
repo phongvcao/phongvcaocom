@@ -1,0 +1,12 @@
+1. SKILLS SECTION:
+- Gradient: Horizontal Gradient
+- Shade: 80% for exporting to .PNG
+	 80% for .SLA source
+         50% for exporting to .PDF
+- Position: 10%
+- Horizontal bars 5 ups from the horizontal lines
+- Headers 4 ups from the original positions
+
+2. EXPORT:
+- As Image: 93 dpi
+- As PDF: 300 dpi

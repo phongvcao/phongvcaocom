@@ -1,0 +1,51 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address,
+variable, form, fieldset, blockquote {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ol {
+  margin-left: 1.4em;
+  list-style: decimal;
+}
+
+ul {
+  margin-left: 1.4em;
+}
+
+img {
+  border: 0;
+}
+
+body {
+  /* 
+   * blank for now because we use 
+   * #main-body instead (for compability 
+   * with fancyBox). Styling of body
+   * can later be overwritten in 
+   * child templates' css stylesheets
+   */
+}
+
+/* noscript */
+#noscript {
+  border-width: 1px;
+  border-color: #bd1212;
+  border-style: solid;
+  font-family: 'Ubuntu', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 975px;
+  padding: 10px 10px 10px 10px;
+  background-color: #ffb2b2;
+  line-height: 25px;
+}
+
+p.noscript {
+  color: #bd1212;
+  text-align: center;
+}
