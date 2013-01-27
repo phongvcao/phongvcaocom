@@ -62,14 +62,20 @@
 
 - Implement clickable anchor links for design_portfolio.html instead
   of just underlining.
-
-- Implement "View ... Source Code", "Go to ... Website" and 
-  "Download ... Software" for software_portfolio.html. 
-  (use soft_portfolio_flow.imageID
+  
+- Implement "Download button" for software_portfolio.html
+  ("View ... Source Code", "Go to ... Website" and 
+  "Download ... Software" for software_portfolio.html) 
+  
+  (NOTE: we can use soft_portfolio_flow.imageID)
   
 - Social-sites subpage implement /subpage/
 
 - Make sprites look sharper (Especially twitter icon)
+
+- Switch all jQuery library to .min.js version... :D
+
+- Make Facebook & Twitter logos look better
 
 - Create *.html for redirecting to other social networking profiles.
 

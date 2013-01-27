@@ -1,5 +1,5 @@
 body {
-  background: url("/static/images/home/ubuntu-background.png");
+  background: url("/static/images/home/ubuntu-background.jpg");
 }
 
 #main-body {
@@ -167,24 +167,24 @@ body a {
 }
 
 /* 
- * social-network-buttons-sprites.png
+ * social-network-buttons-sprites.jpg
  * social-network-buttons-sprites.css
  */
 
 #github:link, #linkedin:link, #twitter:link, #wordpress:link, #facebook:link {
-  background: url("/static/images/home/social-network-buttons-sprites.png") center no-repeat;
+  background: url("/static/images/home/social-network-buttons-sprites.jpg") center no-repeat;
   filter: alpha(opacity=75);
   opacity: 0.75;
 }
 
 #github:visited, #linkedin:visited, #twitter:visited, #wordpress:visited, #facebook:visited {
-  background: url("/static/images/home/social-network-buttons-sprites.png") center no-repeat;
+  background: url("/static/images/home/social-network-buttons-sprites.jpg") center no-repeat;
   filter: alpha(opacity=75);
   opacity: 0.75;
 }
 
 #github:hover, #linkedin:hover, #twitter:hover, #wordpress:hover, #facebook:hover, #pic-2--5:link, #pic-2--5:visited, #pic-2--5:hover {
-  background: url("/static/images/home/social-network-buttons-sprites.png") center no-repeat;
+  background: url("/static/images/home/social-network-buttons-sprites.jpg") center no-repeat;
   filter: alpha(opacity=100);
   opacity: 1;
 }
@@ -336,12 +336,12 @@ body #resume-text {
 }
 
 /* 
- * dingo-slideshow-sprites.png
+ * dingo-slideshow-sprites.jpg
  * dingo-slideshow-sprites.css
  */
 
 #pic-2--3_slide-1, #pic-2--3_slide-2, #pic-2--3_slide-3, #pic-2--3_slide-4, #pic-2--3_slide-5, #pic-2--3_slide-6, #pic-2--3_slide-7, #pic-2--3_slide-8, #pic-2--3_slide-9, #pic-2--3_slide-10, #pic-2--3_slide-11 {
-  background: url("/static/images/home/dingo-slideshow-sprites.png") center no-repeat;
+  background: url("/static/images/home/dingo-slideshow-sprites.jpg") center no-repeat;
 }
 
 #pic-2--3_slide-1 {
@@ -389,12 +389,12 @@ body #resume-text {
 }
 
 /* 
- * dingoprojectorg-slideshow-sprites.png
+ * dingoprojectorg-slideshow-sprites.jpg
  * dingoprojectorg-slideshow-sprites.css
  */
 
 #pic-5--2_slide-1, #pic-5--2_slide-2, #pic-5--2_slide-3, #pic-5--2_slide-4, #pic-5--2_slide-5, #pic-5--2_slide-6, #pic-5--2_slide-7, #pic-5--2_slide-8, #pic-5--2_slide-9, #pic-5--2_slide-10, #pic-5--2_slide-11 {
-  background: url("/static/images/home/dingoprojectorg-slideshow-sprites.png") center no-repeat;
+  background: url("/static/images/home/dingoprojectorg-slideshow-sprites.jpg") center no-repeat;
 }
 
 #pic-5--2_slide-1 {
@@ -442,12 +442,12 @@ body #resume-text {
 }
 
 /* 
- * phongvcaocom-slideshow-sprites.png
+ * phongvcaocom-slideshow-sprites.jpg
  * phongvcaocom-slideshow-sprites.css
  */
 
 #pic-4--5_slide-1, #pic-4--5_slide-2, #pic-4--5_slide-3, #pic-4--5_slide-4, #pic-4--5_slide-5, #pic-4--5_slide-6 {
-  background: url("/static/images/home/phongvcaocom-slideshow-sprites.png") center no-repeat;
+  background: url("/static/images/home/phongvcaocom-slideshow-sprites.jpg") center no-repeat;
 }
 
 #pic-4--5_slide-1 {

@@ -11,17 +11,6 @@
     
     {% block fonts %}{% endblock %}
     
-    {# We will use Ubuntu for sans-serif #}
-    {% if sans_serif %}
-      <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700' rel='stylesheet' type='text/css'>
-    {% endif %}
-    
-    {# We will use Gentium Basic for serifs #}
-    {# font-family: 'Gentium Basic', serif #}
-    {% if serifs %}
-      <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,700' rel='stylesheet' type='text/css'>
-    {% endif %}
-    
     <link rel="stylesheet" type="text/css" href="/static/css/base.css" />
     
     {% block libs %}{% endblock %}
