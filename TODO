@@ -84,21 +84,21 @@
 
 4. Sunday 01/27/13 - Afternoon - Night:
 
-- Implement Google Analytics & Webmaster
+- DONE: Edit resume *.sla file (You can get it from crocodoc).
+
+- DONE: Implement Google Analytics & Webmaster
   (Don't forget 404.html)
 
-- Edit resume *.sla file (You can get it from crocodoc).
+- DONE: Edit Linkedin so that it matches your current resume.
 
-- Set Debug = False in settings.py on phongvcao.com
+- DONE: Set Debug = False in settings.py on phongvcao.com
 
-- Edit Linkedin so that it matches your current resume.
-
-- Add link to phongvcao.com to Summary section of Linkedin.
+- DONE: Add link to phongvcao.com to Summary section of Linkedin.
 
 - Change my home page link on all social-networking sites, 
   EXCEPT Facebook
-  (Twitter, Github, Linkedin, Wordpress, Google+,
-   SourceForge.net)
+  (DONE: Twitter, DONE: Github, DONE: Linkedin, DONE: Wordpress, 
+   DONE: Google+, DONE: SourceForge.net)
 
 - Create INSTALL and other packaging notes
 
