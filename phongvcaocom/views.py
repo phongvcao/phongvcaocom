@@ -28,3 +28,28 @@ def design_portfolio_page_view(request):
 # Software Portfolio #
 def software_portfolio_page_view(request):
     return render_to_response("software_portfolio.html")
+
+# Social Sites Redirect #
+def social_sites_redirect_view(request, social_site_name):
+    social_site_name = social_site_name.title()
+    social_site_url = ""
+    
+    if social_site_name == "Facebook":
+        social_site_url = "https://www.facebook.com/phong.v.cao"
+    
+    elif social_site_name == "Twitter":
+        social_site_url = "https://twitter.com/phongvcao"
+    
+    elif social_site_name == "Linkedin":
+        social_site_url = "http://www.linkedin.com/in/phongvcao/"
+    
+    elif social_site_name == "Wordpress":
+        social_site_url = "http://phongvcao.wordpress.com/"
+    
+    elif social_site_name == "Github":
+        social_site_url = "https://github.com/phongvcao"
+    
+    else:
+        raise Http404()
+    
+    return render_to_response("base.html", { 'social_site_name': social_site_name, 'social_site_url': social_site_url })

@@ -14,6 +14,7 @@ urlpatterns = patterns('',
     (r'^resume/$', resume_page_view),
     (r'^design/$', design_portfolio_page_view),
     (r'^software/$', software_portfolio_page_view),
+    (r'^(?P<social_site_name>.*)/$', social_sites_redirect_view),
     # Examples:
     # url(r'^$', 'phongvcaocom.views.home', name='home'),
     # url(r'^phongvcaocom/', include('phongvcaocom.foo.urls')),

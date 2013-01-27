@@ -48,36 +48,40 @@
 - DONE: Edit design_portfolio.html so that font size is almost the 
   same as software_portfolio.html.
 
-- Edit resume (You can get it from crocodoc).
+- DONE: Switch all jQuery library to .min.js version... :D
 
-- Edit content of *.html pages so it matches your status now
-  + Add dingo-project.org to design_portfolio.html
-  + Add dingo-project.org, dingo to software_portfolio.html
-  + Add the new phongvcao.com to software_portfolio.html
+
+3. Sunday 01/27/13
+
+- DONE: Edit content of *.html pages so it matches your status now
+  + DONE: Add dingo-project.org to design_portfolio.html
+  + DONE: Add dingo-project.org, dingo to software_portfolio.html
+  + DONE: Add the new phongvcao.com to software_portfolio.html
+
+- DONE: Implement clickable anchor links for design_portfolio.html 
+  instead of just underlining.
+  
+- DONE: Social-sites subpage implement /subpage/
+
+- DONE: Create *.html for redirecting to other social networking profiles.
+  
+- DONE: Implement "Download button" for software_portfolio.html
+  ("View ... Source Code", "Go to ... Website" and 
+  "Download ... Software" for software_portfolio.html)
+  (NOTE: we can use soft_portfolio_flow.imageID)
+
+- DONE: Switch all images to *.jpg at 90%
+
+- Edit resume *.sla file (You can get it from crocodoc).
   
 - Create 404.html and 505.html
   (same background but shadow-box like all the transparency boxes.
   When hovering over -> change color and opacity = 1
   When clicking -> back to homepage
 
-- Implement clickable anchor links for design_portfolio.html instead
-  of just underlining.
-  
-- Implement "Download button" for software_portfolio.html
-  ("View ... Source Code", "Go to ... Website" and 
-  "Download ... Software" for software_portfolio.html) 
-  
-  (NOTE: we can use soft_portfolio_flow.imageID)
-  
-- Social-sites subpage implement /subpage/
-
 - Make sprites look sharper (Especially twitter icon)
 
-- Switch all jQuery library to .min.js version... :D
-
 - Make Facebook & Twitter logos look better
-
-- Create *.html for redirecting to other social networking profiles.
 
 - Implement Google Analytics & Webmaster
 

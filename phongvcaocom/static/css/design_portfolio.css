@@ -11,7 +11,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   position: absolute;
-  z-index: 1;
 }
 
 p {
@@ -41,6 +40,13 @@ p {
   width: 750px;
   margin-left: 175px;
   line-height: 22px;
+  z-index: 10004;
+  position: absolute;
+}
+
+.alt-text-link:link, .alt-text-link:visited {
+  text-decoration: underline;
+  color: white;
 }
 
 #portfolio-download {

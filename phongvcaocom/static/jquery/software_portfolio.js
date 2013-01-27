@@ -17,13 +17,154 @@ $(window).load(function() {
     scrollbarP: 0.64
   });
   
-  var htmlStr = "";
+  var download_htmlStr = "Download this software";
+  var original_htmlStr = "";
   
-  $("#view-source-code").mouseenter(function() {
-    htmlStr = soft_portfolio_flow.captionDiv.innerHTML;
-    soft_portfolio_flow.captionDiv.innerHTML = "<div class=\"caption\" style=\"font-family: 'Times New Roman', serif; text-align: left; width: 700px; margin-left: auto; margin-right: auto; color: white\"> <div class=\"title\" style=\"font-size: 22px; font-family: 'Times New Roman', serif; font-weight: bold; text-align: center; text-transform: uppercase\"> View Source Code </div> </div>";
+  $("#software-download").click(function() {
+    switch (soft_portfolio_flow.imageID) {
+      case 0: {
+        window.open("http://phongvcao.com/software/", "_blank");
+        
+        break;
+      }
+      
+      case 1: {
+        window.open("http://dingo-project.org/", "_blank");
+        
+        break;
+      }
+      
+      case 2: {
+        window.open("http://dingo-project.org/download/", "_blank");
+        
+        break;
+      }
+      
+      case 3: {
+        window.open("http://phongvcao.com/", "_blank");
+        
+        break;
+      }
+      
+      default: {
+        window.open("http://phongvcao.com/", "_blank");
+        
+        break;
+      }
+    }  
+  }).mouseenter(function() {
+    switch (soft_portfolio_flow.imageID) {
+      case 0: {
+        download_htmlStr = "Download Portfolio";
+        
+        break;
+      }
+      
+      case 1: {
+        download_htmlStr = "Go to \"Dingo Project's Website\""
+        
+        break;
+      }
+      
+      case 2: {
+        download_htmlStr = "Download \"Dingo Media Manager\"";
+        
+        break;
+      }
+      
+      case 3: {
+        download_htmlStr = "Go to \"Phong Cao's Personal Website\"";
+        
+        break;
+      }
+      
+      default: {
+        download_htmlStr = "Download this software";
+        
+        break;
+      }
+    }
+    
+    original_htmlStr = soft_portfolio_flow.captionDiv.innerHTML;
+    
+    soft_portfolio_flow.captionDiv.innerHTML = "<div class=\"caption\"> <div class=\"title\"> " + download_htmlStr + " </div> </div>";
   }).mouseleave(function() {
-    soft_portfolio_flow.captionDiv.innerHTML = htmlStr;
+    soft_portfolio_flow.captionDiv.innerHTML = original_htmlStr;
+  });
+  
+  
+  var view_htmlStr = "View Source Code";
+  
+  $("#view-source-code").click(function() {
+    switch (soft_portfolio_flow.imageID) {
+      case 0: {
+        window.open("https://github.com/phongvcao", "_blank");
+        
+        break;
+      }
+      
+      case 1: {
+        window.open("https://github.com/phongvcao/dingoprojectorg", "_blank");
+        
+        break;
+      }
+      
+      case 2: {
+        window.open("https://github.com/phongvcao/dingo", "_blank");
+        
+        break;
+      }
+      
+      case 3: {
+        window.open("https://github.com/phongvcao/phongvcaocom", "_blank");
+        
+        break;
+      }
+      
+      default: {
+        window.open("https://github.com/phongvcao", "_blank");
+        
+        break;
+      }
+    }  
+  }).mouseenter(function() {
+    switch (soft_portfolio_flow.imageID) {
+      case 0: {
+        view_htmlStr = "View Source Code";
+        
+        break;
+      }
+      
+      case 1: {
+        view_htmlStr = "View \"Dingo Project's Website\" Source Code"
+        
+        break;
+      }
+      
+      case 2: {
+        view_htmlStr = "View \"Dingo Media Manager\" Source Code";
+        
+        break;
+      }
+      
+      case 3: {
+        view_htmlStr = "View \"Phong Cao's Personal Website\" Source Code";
+        
+        break;
+      }
+      
+      default: {
+        view_htmlStr = "View Source Code";
+        
+        break;
+      }
+    }
+    
+    original_htmlStr = soft_portfolio_flow.captionDiv.innerHTML;
+    
+    soft_portfolio_flow.captionDiv.innerHTML = "<div class=\"caption\"> <div class=\"title\"> " + view_htmlStr + " </div> </div>";
+  }).mouseleave(function() {
+    soft_portfolio_flow.captionDiv.innerHTML = original_htmlStr;
   });
 });
 
