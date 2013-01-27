@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www.phongvcao.com$
+RewriteRule ^(.*)$ http://phongvcao.com/$1 [L,R=301]
+
+AddHandler fcgid-script .fcgi
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.fcgi/$1 [QSA,L]
