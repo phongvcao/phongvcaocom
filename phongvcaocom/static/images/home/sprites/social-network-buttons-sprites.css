@@ -1,5 +1,23 @@
-.facebook-logo-over, .facebook-logo-default, .github-logo-over-1, .github-logo-default, .linkedin-logo-over, .linkedin-logo-default, .twitter-logo-default, .twitter-logo-over, .champa-default, .champa-over, .wordpress-logo-default, .wordpress-logo-over{
+.champa-default, .champa-over, .facebook-logo-default, .facebook-logo-over, .github-logo-default, .github-logo-over-1, .linkedin-logo-default, .linkedin-logo-over, .twitter-logo-default, .twitter-logo-over, .wordpress-logo-default, .wordpress-logo-over{
 	background: url(sprites.png) no-repeat;
+}
+
+.champa-default{
+	background-position: -397px -396px ;
+	width: 196px;
+	height: 196px;
+}
+
+.champa-over{
+	background-position: -594px -396px ;
+	width: 196px;
+	height: 196px;
+}
+
+.facebook-logo-default{
+	background-position: -198px 0;
+	width: 196px;
+	height: 196px;
 }
 
 .facebook-logo-over{
@@ -8,68 +26,50 @@
 	height: 196px;
 }
 
-.facebook-logo-default{
-	background-position: -200px 0;
+.github-logo-default{
+	background-position: -595px 0;
 	width: 196px;
 	height: 196px;
 }
 
 .github-logo-over-1{
-	background-position: 0 -199px ;
-	width: 196px;
-	height: 196px;
-}
-
-.github-logo-default{
-	background-position: -200px -200px ;
-	width: 196px;
-	height: 196px;
-}
-
-.linkedin-logo-over{
-	background-position: 0 -398px ;
+	background-position: -397px 0;
 	width: 196px;
 	height: 196px;
 }
 
 .linkedin-logo-default{
-	background-position: -200px -400px ;
+	background-position: -198px -396px ;
+	width: 196px;
+	height: 196px;
+}
+
+.linkedin-logo-over{
+	background-position: 0 -396px ;
 	width: 196px;
 	height: 196px;
 }
 
 .twitter-logo-default{
-	background-position: -600px 0;
+	background-position: -198px -198px ;
 	width: 196px;
 	height: 196px;
 }
 
 .twitter-logo-over{
-	background-position: -400px 0;
-	width: 196px;
-	height: 196px;
-}
-
-.champa-default{
-	background-position: -400px -399px ;
-	width: 196px;
-	height: 196px;
-}
-
-.champa-over{
-	background-position: -599px -399px ;
+	background-position: 0 -198px ;
 	width: 196px;
 	height: 196px;
 }
 
 .wordpress-logo-default{
-	background-position: -600px -200px ;
+	background-position: -595px -198px ;
 	width: 196px;
 	height: 196px;
 }
 
 .wordpress-logo-over{
-	background-position: -400px -199px ;
+	background-position: -397px -198px ;
 	width: 196px;
 	height: 196px;
 }

@@ -190,47 +190,47 @@ body a {
 }
 
 #linkedin:link {
-  background-position: -200px -400px;
+  background-position: -198px -396px;
 }
 
 #linkedin:visited {
-  background-position: -200px -400px;
+  background-position: -198px -396px;
 }
 
 #linkedin:hover {
-  background-position: 0 -398px;
+  background-position: 0 -396px;
 }
 
 #twitter:link {
-  background-position: -600px 0;
+  background-position: -198px -198px;
 }
 
 #twitter:visited {
-  background-position: -600px 0;
+  background-position: -198px -198px;
 }
 
 #twitter:hover {
-  background-position: -400px 0;
+  background-position: 0 -198px;
 }
 
 #wordpress:link {
-  background-position: -600px -200px;
+  background-position: -595px -198px;
 }
 
 #wordpress:visited {
-  background-position: -600px -200px;
+  background-position: -595px -198px;
 }
 
 #wordpress:hover {
-  background-position: -400px -199px;
+  background-position: -397px -198px;
 }
 
 #facebook:link {
-  background-position: -200px 0;
+  background-position: -198px 0;
 }
 
 #facebook:visited {
-  background-position: -200px 0;
+  background-position: -198px 0;
 }
 
 #facebook:hover {
@@ -238,29 +238,29 @@ body a {
 }
 
 #github:link {
-  background-position: -200px -200px;
+  background-position: -595px 0;
 }
 
 #github:visited {
-  background-position: -200px -200px;
+  background-position: -595px 0;
 }
 
 #github:hover {
-  background-position: 0 -199px;
+  background-position: -397px 0;
 }
 
 #pic-2--5:link {
-  background-position: -400px -399px;
+  background-position: -397px -396px;
   cursor: default;
 } 
 
 #pic-2--5:visited {
-  background-position: -400px -399px;
+  background-position: -397px -396px;
   cursor: default;
 } 
 
 #pic-2--5:hover {
-  background-position: -599px -399px;
+  background-position: -594px -396px;
   cursor: default;
 } 
 

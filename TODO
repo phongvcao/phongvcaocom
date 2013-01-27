@@ -72,19 +72,36 @@
 
 - DONE: Switch all images to *.jpg at 90%
 
-- Edit resume *.sla file (You can get it from crocodoc).
-  
-- Create 404.html and 505.html
-  (same background but shadow-box like all the transparency boxes.
-  When hovering over -> change color and opacity = 1
-  When clicking -> back to homepage
 
-- Make sprites look sharper (Especially twitter icon)
+3. Sunday 01/27/13 - Afternoon:
 
-- Make Facebook & Twitter logos look better
+- DONE: Create 404.html
+  (Auto-redirect to homepage)
+
+- DONE: Make Facebook & Twitter sprites  look sharper
+  (We should start from the *.png files)
+
+
+4. Sunday 01/27/13 - Afternoon - Night:
 
 - Implement Google Analytics & Webmaster
+  (Don't forget 404.html)
+
+- Edit resume *.sla file (You can get it from crocodoc).
+
+- Set Debug = False in settings.py on phongvcao.com
+
+- Edit Linkedin so that it matches your current resume.
+
+- Add link to phongvcao.com to Summary section of Linkedin.
+
+- Change my home page link on all social-networking sites, 
+  EXCEPT Facebook
+  (Twitter, Github, Linkedin, Wordpress, Google+,
+   SourceForge.net)
 
 - Create INSTALL and other packaging notes
+
+- Facebook announcement
 
 * REMEMBER: git rm $(git ls-files --deleted)

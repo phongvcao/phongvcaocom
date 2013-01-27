@@ -6,7 +6,8 @@ from phongvcaocom.views import *
 # admin.autodiscover()
 
 handler404 = 'phongvcaocom.views.handler404'
-handler500 = 'phongvcaocom.views.handler500'
+# No need for handler500. Just use the default then.
+# handler500 = 'phongvcaocom.views.handler500'
 
 urlpatterns = patterns('',
     (r'^$', home_page_view),
