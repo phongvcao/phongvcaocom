@@ -23,7 +23,7 @@ $(document).ready(function() {
   $("#about").fancybox({
     fitToView : false,
     width : 820,
-    height : 520,
+    height : 500,
     autoSize : false,
     closeClick : false,
     openEffect : 'elastic',
