@@ -7,7 +7,7 @@ phongvcaocom is a free and open-source software, licensed under the GNU GPL v3.0
 
 phongvcaocom's libraries, however, retain their original copyright
 
-dingprojectorg is developed using Github. To get a copy of the latest development tree, please go to this web page:
+phongvcaocom is developed using Github. To get a copy of the latest development tree, please go to this web page:
   https://github.com/phongvcao/phongvcaocom
 
 phongvcaocom is written in Python, HTML, CSS, JavaScript and SQL (SQLite) using the following libraries: Django, jQuery, Crocodoc, Professor Cloud Carousel, ImageFlow, jQuery Cycle, fancyBox
