@@ -24,4 +24,6 @@
       
       <iframe id="crocodoc" src="http://personal.crocodoc.com/uSjYda6?embedded=true" width="845" height="490"></iframe>
       
+      <iframe src="http://personal.crocodoc.com/uSjYda6?embedded=true" width="100%" height="600" style="border:1px solid #ddd;"></iframe>
+      
 {% endblock %}
