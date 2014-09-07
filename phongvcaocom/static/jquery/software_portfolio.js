@@ -127,19 +127,19 @@ $(window).load(function() {
                 break;
             }
 
-            case 1: {
-                window.open("https://github.com/phongvcao/dingoprojectorg", "_blank");
-
-                break;
-            }
-
             case 2: {
                 window.open("https://github.com/phongvcao/dingo", "_blank");
 
                 break;
             }
 
-            case 3: {
+            case 4: {
+                window.open("https://github.com/phongvcao/dingoprojectorg", "_blank");
+
+                break;
+            }
+
+            case 5: {
                 window.open("https://github.com/phongvcao/phongvcaocom", "_blank");
 
                 break;
@@ -160,9 +160,9 @@ $(window).load(function() {
             }
 
             case 1: {
-                view_htmlStr = "View \"Dingo Project's Website\" Source Code"
+                view_htmlStr = "\"PathX Mini-Game\" is closed-source. <br><br> Its Source Code is available <br> upon request with the author.";
 
-                    break;
+                break;
             }
 
             case 2: {
@@ -172,6 +172,18 @@ $(window).load(function() {
             }
 
             case 3: {
+                view_htmlStr = "\"Stony Brook Research's Website\" is closed-source. <br><br> Its Source Code belongs to the Office of the Vice President for Research at Stony Brook University.";
+
+                break;
+            }
+
+            case 4: {
+                view_htmlStr = "View \"Dingo Project's Website\" Source Code";
+
+                break;
+            }
+
+            case 5: {
                 view_htmlStr = "View \"Phong Cao's Personal Website\" Source Code";
 
                 break;
