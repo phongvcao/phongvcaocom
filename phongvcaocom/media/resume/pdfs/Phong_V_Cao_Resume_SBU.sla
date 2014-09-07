@@ -284,7 +284,7 @@
             <ITEXT FONT="Georgia Regular" FONTSIZE="9.5" CH="• "/>
             <ITEXT FONTSIZE="9.5" FEATURES="inherit underline" TXTULP="100" TXTULW="-0.1" CH="Notable Contributions:"/>
             <ITEXT FONT="Georgia Regular" FONTSIZE="9.5" CH=" "/>
-            <ITEXT FONT="Georgia Italic" FONTSIZE="9.5" CH="YoutubeVideoGallery (Drupal/jQuery), DynamicMobileLayout (JavaScript/jQuery), "/>
+            <ITEXT FONT="Georgia Italic" FONTSIZE="9.5" CH="YoutubeVideoGallery (Drupal/jQuery), MightySliderView (Drupal/jQuery), "/>
             <para LINESP="12" FIRST="0">
                 <Tabs Type="0" Pos="0" Fill=""/>
             </para>
