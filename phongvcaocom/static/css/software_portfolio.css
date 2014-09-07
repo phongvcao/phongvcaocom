@@ -1,91 +1,92 @@
 body {
-  width: 1050px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: black;
-  height: 555px;
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    height: 555px;
 }
 
 #soft-portfolio-flow {
-  background-color: black;
-  margin-top: -55px;
-  display: inline-block;
+    background-color: black;
+    margin-top: -55px;
+    display: inline-block;
+    height: 540px !important;
 }
 
 .title {
-  font-family: 'Gentium Basic', serif;
-  font-weight: 700;
-  font-size: 24px;
-  text-align: center;
-  text-transform: uppercase;
-  margin-top: -5px;
+    font-family: 'Gentium Basic', serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -5px;
 }
 
 .caption {
-  font-family: 'Gentium Basic', serif;
-  font-weight: 400;
-  width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
+    font-family: 'Gentium Basic', serif;
+    font-weight: 400;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
 }
 
 p.summary {
-  font-family: 'Gentium Basic', serif;
-  font-weight: 400;
-  font-size: 16px;
-  margin-top: 15px;
-  text-align: justify;
-  line-height: 22px;
+    font-family: 'Gentium Basic', serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: justify;
+    line-height: 22px;
 }
 
 .summary-link {
-  font-family: 'Gentium Basic', serif;
-  font-weight: 400;
-  font-style: normal;
-  text-decoration: underline;
-  font-size: 16px;
-  color: white;
+    font-family: 'Gentium Basic', serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    font-size: 16px;
+    color: white;
 }
 
 .summary-ul {
-  font-family: 'Gentium Basic', serif;
-  font-weight: 400;
-  margin-top: 15px;
-  margin-left: 18px;
-  font-size: 16px;
-  text-align: left;
-  line-height: 22px;
+    font-family: 'Gentium Basic', serif;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-left: 18px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 22px;
 }
 
 #source-code-icon {
-  border-width: 5px;
-  border-style: solid;
-  border-color: #DCDCDC;
-  border-radius: 4px;
-  margin-top: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #DCDCDC;
+    border-radius: 4px;
+    margin-top: 10px;
 }
 
 #view-source-code {
-  z-index: 10004;
-  position: relative;
-  margin-left: 10px;
-  display: inline-block;
+    z-index: 10004;
+    position: relative;
+    margin-left: 10px;
+    display: inline-block;
 }
 
 #software-download-icon {
-  border-width: 5px;
-  border-style: solid;
-  border-color: #DCDCDC;
-  border-radius: 4px;
-  padding: 3px 10px 3px 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #DCDCDC;
+    border-radius: 4px;
+    padding: 3px 10px 3px 10px;
 }
 
 #software-download {
-  z-index: 10004;
-  position: relative;
-  float: right;
-  display: inline-block;
-  margin-top: 10px;
-  margin-right: 10px;
+    z-index: 10004;
+    position: relative;
+    float: right;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
 }

@@ -3,41 +3,46 @@
 {% block title %}Phong V. Cao &rsaquo;&rsaquo; Software Portfolio{% endblock %}
 
 {% block fonts %}
-  <link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Gentium+Basic:400,700' rel='stylesheet' type='text/css'>
 {% endblock %}
 
 {% block libs %}
-  <script type="text/javascript" src="/static/include/jquery/jquery-1.9.0.min.js"></script>
-  
-  <link rel="stylesheet" type="text/css" href="/static/include/imageflow/imageflow.css" />
-    
-  <script type="text/javascript" src="/static/include/imageflow/imageflow.js"></script>
+<script type="text/javascript" src="/static/include/jquery/jquery-1.9.0.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/static/include/imageflow/imageflow.css" />
+
+<script type="text/javascript" src="/static/include/imageflow/imageflow.js"></script>
 {% endblock %}
 
-{% block static %}  
-  <link rel="stylesheet" type="text/css" href="/static/css/software_portfolio.css" />
-  
-  <script type="text/javascript" src="/static/jquery/software_portfolio.js"></script>
+{% block static %}
+<link rel="stylesheet" type="text/css" href="/static/css/software_portfolio.css" />
+
+<script type="text/javascript" src="/static/jquery/software_portfolio.js"></script>
 {% endblock %}
 
 {% block content %}
-    <a id="view-source-code" href="#" style="text-decoration:none">
-      <img id="source-code-icon" src="/static/images/software/phongvcao_view-source-code.png" />
-    </a>
-    
-    <a id="software-download" href="#" style="text-decoration:none">
-      <img id="software-download-icon" src="/static/images/software/phongvcao_software-download.png" />
-    </a>
-  
-    <div id="soft-portfolio-flow" class="imageflow">
-      <img id="phongvcao-instruction" src="/static/images/software/phongvcao_instruction.jpg" width="427" height="240" alt="&lt;div class=&quot;caption&quot;&gt; &lt;div class=&quot;title&quot;&gt; Portfolio Instruction &lt;/div&gt; &lt;/div&gt;" />
-      
-      <img id="phongvcao-dingoprojectorg" src="/static/images/software/phongvcao_dingo-project.org.jpg" width="534" height="300" alt="&lt;div class=&quot;caption&quot;&gt; &lt;div class=&quot;title&quot;&gt; Dingo Project&#39;s Website &lt;/div&gt; &lt;p class=&quot;summary&quot;&gt; Dingo Project&#39;s Website (&lt;a href=&quot;http://dingo-project.org/&quot; class=&quot;summary-link&quot; target=&quot;_blank&quot;&gt;dingo-project.org&lt;/a&gt;) is the official website of Dingo Media Manager (my first personal open-source software). Developed using Python/Django, HTML, CSS and JavaScript, &lt;a href=&quot;http://dingo-project.org/&quot; class=&quot;summary-link&quot; target=&quot;_blank&quot;&gt;dingo-project.org&lt;/a&gt; serves as an online catalog for the Dingo project. The site is database-driven: it fetches and stores most of its data from/into a SQLite database. &lt;ul class=&quot;summary-ul&quot;&gt; &lt;li&gt;&lt;b&gt;Languages Used:&lt;/b&gt; Python, HTML, CSS, JavaScript, SQL (SQLite) &lt;/li&gt; &lt;li&gt;&lt;b&gt;Libraries Used:&lt;/b&gt; Django, jQuery, SlidesJS, TinyMCE, SQLite3, fancyBox&lt;/li&gt; &lt;li&gt;&lt;b&gt;Development Tools:&lt;/b&gt; gedit, Git, Firefox, GIMP, Inkscape, FireBug, MySQL Workbench&lt;/li&gt; &lt;li&gt;&lt;b&gt;Licensed Under:&lt;/b&gt; GNU GPL License v3.0&lt;/li&gt; &lt;/ul&gt; &lt;/p&gt; &lt;/div&gt;" />
-      
-      <img id="phongvcao-dingo" src="/static/images/software/phongvcao_dingo.jpg" width="534" height="300" alt="&lt;div class=&quot;caption&quot;&gt; &lt;div class=&quot;title&quot;&gt; Dingo Media Manager &lt;/div&gt; &lt;p class=&quot;summary&quot;&gt; Dingo is an easy-to-use audio/video manager and player for Linux. It supports various media formats and carries powerful features such as repeat section, checkboxes-based tracks-playlists manager, subtitle auto-save, lyrics fetching, etc.. Dingo is heavily coded in C/C++ and customized for Linux operating system. Dingo 0.5.0, the first stable version of the software, was released on December 30, 2012. &lt;ul class=&quot;summary-ul&quot;&gt; &lt;li&gt;&lt;b&gt;Languages Used:&lt;/b&gt; C, C++, SQL (SQLite), XML&lt;/li&gt; &lt;li&gt;&lt;b&gt;Libraries Used:&lt;/b&gt; Boost, Gtkmm, GStreamermm, MediaInfo, SQLite3, libxml++, libnotify, gettext&lt;/li&gt; &lt;li&gt;&lt;b&gt;Development Tools:&lt;/b&gt; Eclipse, Git, GDB, GCC, Valgrind, Autotools, GNU Make&lt;/li&gt; &lt;li&gt;&lt;b&gt;Licensed Under:&lt;/b&gt; GNU GPL License v3.0&lt;/b&gt; &lt;/ul&gt; &lt;/p&gt; &lt;/div&gt;" />
-      
-      <img id="phongvcao-phongvcaocom" src="/static/images/software/phongvcao_phongvcao.com.jpg" width="534" height="300" alt="&lt;div class=&quot;caption&quot;&gt; &lt;div class=&quot;title&quot;&gt; Phong Cao&#39;s Personal Website &lt;/div&gt; &lt;p class=&quot;summary&quot;&gt; My personal website itself (accessible at &lt;a href=&quot;http://phongvcao.com/&quot; target=&quot;_blank&quot; class=&quot;summary-link&quot;&gt;phongvcao.com&lt;/a&gt;) is a Python/Django web application. The site contains complex HTML/CSS/JavaScript/jQuery codes for its grid-based layout and eye-catchy animations. &lt;a href=&quot;http://phongvcao.com/&quot; target=&quot;_blank&quot; class=&quot;summary-link&quot;&gt;phongvcao.com&lt;/a&gt; demonstrates my fluency in both server-side and client-side scripting and serves as the gateway to all of my online social networking profiles and professional portfolios. &lt;ul class=&quot;summary-ul&quot;&gt; &lt;li&gt;&lt;b&gt;Languages Used:&lt;/b&gt; Python, HTML, CSS, JavaScript&lt;/li&gt; &lt;li&gt;&lt;b&gt;Libraries Used:&lt;/b&gt; Django, jQuery, Crocodoc, Professor Cloud Carousel, ImageFlow, jQuery Cycle, fancyBox&lt;/li&gt; &lt;li&gt;&lt;b&gt;Development Tools:&lt;/b&gt; gedit, Git, Firefox, GIMP, Inkscape, Scribus, FireBug, SpritePad&lt;/li&gt; &lt;li&gt;&lt;b&gt;Licensed Under:&lt;/b&gt; GNU GPL License v3.0&lt;/li&gt; &lt;/ul&gt; &lt;/p&gt; &lt;/div&gt;" />
-    </div>
-    
-    <div class="globalCaption" style="margin-top: 10px"></div>
+<a id="view-source-code" href="#" style="text-decoration:none">
+    <img id="source-code-icon" src="/static/images/software/phongvcao_view-source-code.png" />
+</a>
+
+<a id="software-download" href="#" style="text-decoration:none">
+    <img id="software-download-icon" src="/static/images/software/phongvcao_software-download.png" />
+</a>
+
+<div id="soft-portfolio-flow" class="imageflow">
+    <img id="phongvcao-instruction" src="/static/images/software/phongvcao_instruction.jpg" width="427" height="240" alt="&lt;div class=&quot;caption&quot;&gt; &lt;div class=&quot;title&quot;&gt; Portfolio Instruction &lt;/div&gt; &lt;/div&gt;" />
+
+    <img id="phongvcao-pathx" src="/static/images/software/phongvcao_pathx.jpg" width="534" height="300" alt="&lt;div class=&quot;caption&quot;&gt; &lt;div class=&quot;title&quot;&gt; PathX Mini-Game &lt;/div&gt; &lt;p class=&quot;summary&quot;&gt;PathX is a single-player mini-game where the player assumes the role of a robber driving through numerous obstacles to bring the robbed money to the hideout. PathX was developed to be used as the final project for my CSE-219 (Computer Science III) class at Stony Brook University. It utilizes common algorithms such as Dijkstra's Shortest Path and Depth-First Traversal to setup and control gameplay. &lt;ul class=&quot;summary-ul&quot;&gt; &lt;li&gt;&lt;b&gt;Languages &amp; Libraries Used:&lt;/b&gt; Java, XML, Swing, XSD&lt;/li&gt; &lt;li&gt;&lt;b&gt;Algorithms Applied:&lt;/b&gt; Dijkstra&#39;s Shortest Path, Depth-First Traversal (Graph Cycle Extraction)&lt;/li&gt; &lt;li&gt;&lt;b&gt;Design Patterns:&lt;/b&gt; Singleton, Prototype, Observer, Delegation, Facade, Model-View-Controller&lt;/li&gt; &lt;li&gt;&lt;b&gt;Development Tools:&lt;/b&gt; MiniGameFramework, Netbeans, Git, GIMP, Inkscape&lt;/li&gt; &lt;/ul&gt; &lt;/p&gt; &lt;/div&gt;" />
+
+    <img id="phongvcao-dingo" src="/static/images/software/phongvcao_dingo.jpg" width="534" height="300" alt="&lt;div class=&quot;caption&quot;&gt; &lt;div class=&quot;title&quot;&gt; Dingo Media Manager &lt;/div&gt; &lt;p class=&quot;summary&quot;&gt; Dingo is an easy-to-use audio/video manager and player for Linux. It supports various media formats and carries powerful features such as repeat section, checkboxes-based tracks-playlists manager, subtitle auto-save, lyrics fetching, etc.. Dingo is heavily coded in C/C++ and customized for Linux operating system. Dingo 0.5.0, the first stable version of the software, was released on December 30, 2012. &lt;ul class=&quot;summary-ul&quot;&gt; &lt;li&gt;&lt;b&gt;Languages Used:&lt;/b&gt; C, C++, SQL (SQLite), XML&lt;/li&gt; &lt;li&gt;&lt;b&gt;Libraries Used:&lt;/b&gt; Boost, Gtkmm, GStreamermm, MediaInfo, SQLite3, libxml++, libnotify, gettext&lt;/li&gt; &lt;li&gt;&lt;b&gt;Design Patterns:&lt;/b&gt; Observer, Delegation, Facade, Model-Delegate (Model-View-Controller)&lt;/li&gt; &lt;li&gt;&lt;b&gt;Development Tools:&lt;/b&gt; Eclipse, Git, GDB, GCC, Valgrind, Autotools, GNU Make&lt;/li&gt; &lt;/ul&gt; &lt;/p&gt; &lt;/div&gt;" />
+
+    <img id="phongvcao-sburesearch" src="/static/images/software/phongvcao_sburesearch.jpg" width="534" height="300" alt="&lt;div class=&quot;caption&quot;&gt; &lt;div class=&quot;title&quot;&gt; Stony Brook Research&#39;s Website &lt;/div&gt; &lt;p class=&quot;summary&quot;&gt; Stony Brook Research&#39;s Website (&lt;a href=&quot;http://research.stonybrook.edu/&quot; class=&quot;summary-link&quot; target=&quot;_blank&quot;&gt;research.stonybrook.edu&lt;/a&gt;) is the official website for the Office of the Vice President for Research at Stony Brook University. The site was developed by me and 4 other members of the OVPR DoIT Team. &lt;a href=&quot;http://research.stonybrook.edu/&quot; class=&quot;summary-link&quot; target=&quot;_blank&quot;&gt;research.stonybrook.edu&lt;/a&gt; uses Drupal to manage its content and integrates tightly with the Stony Brook University IT eco-system, including Acquia Server and NetID (CAS) Log-in. &lt;ul class=&quot;summary-ul&quot;&gt; &lt;li&gt;&lt;b&gt;Languages Used:&lt;/b&gt; PHP, JavaScript, HTML, CSS&lt;/li&gt; &lt;li&gt;&lt;b&gt;Technology Stack:&lt;/b&gt; Acquia, Drupal, Varnish, Apache, MySQL, CAS&lt;/li&gt; &lt;li&gt;&lt;b&gt;Libraries Used:&lt;/b&gt; PHPTemplate, phpCAS, jQuery, jQuery UI, Bootstrap, MightySlider&lt;/li&gt; &lt;li&gt;&lt;b&gt;Development Tools:&lt;/b&gt; Vim, Git, Firefox, Filezilla, Firebug, UglifyJS2, JIRA&lt;/li&gt; &lt;/ul&gt; &lt;/p&gt; &lt;/div&gt;" />
+
+    <img id="phongvcao-dingoprojectorg" src="/static/images/software/phongvcao_dingo-project.org.jpg" width="534" height="300" alt="&lt;div class=&quot;caption&quot;&gt; &lt;div class=&quot;title&quot;&gt; Dingo Project&#39;s Website &lt;/div&gt; &lt;p class=&quot;summary&quot;&gt; Dingo Project&#39;s Website (&lt;a href=&quot;http://dingo-project.org/&quot; class=&quot;summary-link&quot; target=&quot;_blank&quot;&gt;dingo-project.org&lt;/a&gt;) is the official website of Dingo Media Manager (my first personal open-source software). Developed using Python/Django, HTML, CSS and JavaScript, &lt;a href=&quot;http://dingo-project.org/&quot; class=&quot;summary-link&quot; target=&quot;_blank&quot;&gt;dingo-project.org&lt;/a&gt; serves as an online catalog for the Dingo project. The site is database-driven: it fetches and stores most of its data from/into a SQLite database. &lt;ul class=&quot;summary-ul&quot;&gt; &lt;li&gt;&lt;b&gt;Languages Used:&lt;/b&gt; Python, HTML, CSS, JavaScript, SQL (SQLite) &lt;/li&gt; &lt;li&gt;&lt;b&gt;Libraries Used:&lt;/b&gt; Django, jQuery, SlidesJS, TinyMCE, SQLite3, fancyBox&lt;/li&gt; &lt;li&gt;&lt;b&gt;Development Tools:&lt;/b&gt; gedit, Git, Firefox, GIMP, Inkscape, FireBug, MySQL Workbench&lt;/li&gt; &lt;li&gt;&lt;b&gt;Licensed Under:&lt;/b&gt; GNU GPL License v3.0&lt;/li&gt; &lt;/ul&gt; &lt;/p&gt; &lt;/div&gt;" />
+
+
+    <img id="phongvcao-phongvcaocom" src="/static/images/software/phongvcao_phongvcao.com.jpg" width="534" height="300" alt="&lt;div class=&quot;caption&quot;&gt; &lt;div class=&quot;title&quot;&gt; Phong Cao&#39;s Personal Website &lt;/div&gt; &lt;p class=&quot;summary&quot;&gt; My personal website itself (accessible at &lt;a href=&quot;http://phongvcao.com/&quot; target=&quot;_blank&quot; class=&quot;summary-link&quot;&gt;phongvcao.com&lt;/a&gt;) is a Python/Django web application. The site contains complex HTML/CSS/JavaScript/jQuery codes for its grid-based layout and eye-catchy animations. &lt;a href=&quot;http://phongvcao.com/&quot; target=&quot;_blank&quot; class=&quot;summary-link&quot;&gt;phongvcao.com&lt;/a&gt; demonstrates my fluency in both server-side and client-side scripting and serves as the gateway to all of my online social networking profiles and professional portfolios. &lt;ul class=&quot;summary-ul&quot;&gt; &lt;li&gt;&lt;b&gt;Languages Used:&lt;/b&gt; Python, HTML, CSS, JavaScript&lt;/li&gt; &lt;li&gt;&lt;b&gt;Libraries Used:&lt;/b&gt; Django, jQuery, Crocodoc, Professor Cloud Carousel, ImageFlow, jQuery Cycle, fancyBox&lt;/li&gt; &lt;li&gt;&lt;b&gt;Development Tools:&lt;/b&gt; gedit, Git, Firefox, GIMP, Inkscape, Scribus, FireBug, SpritePad&lt;/li&gt; &lt;li&gt;&lt;b&gt;Licensed Under:&lt;/b&gt; GNU GPL License v3.0&lt;/li&gt; &lt;/ul&gt; &lt;/p&gt; &lt;/div&gt;" />
+</div>
+
+<div class="globalCaption" style="margin-top: 10px"></div>
 {% endblock %}

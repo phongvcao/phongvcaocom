@@ -1,0 +1,40 @@
+.sburesearch-drupal-admin-toolbar, .sburesearch-firefox-for-android-phone, .sburesearch-fullscreen-android-and-desktop, .sburesearch-mightyslider-item-content-type, .sburesearch-phpcas-login, .sburesearch-workstation-fullscreen-and-code{
+	background: url(sprites.png) no-repeat;
+}
+
+.sburesearch-drupal-admin-toolbar{
+	background-position: -400px -400px ;
+	width: 396px;
+	height: 396px;
+}
+
+.sburesearch-firefox-for-android-phone{
+	background-position: -800px -400px ;
+	width: 396px;
+	height: 396px;
+}
+
+.sburesearch-fullscreen-android-and-desktop{
+	background-position: 0 -400px ;
+	width: 396px;
+	height: 396px;
+}
+
+.sburesearch-mightyslider-item-content-type{
+	background-position: -800px 0;
+	width: 396px;
+	height: 396px;
+}
+
+.sburesearch-phpcas-login{
+	background-position: -400px 0;
+	width: 396px;
+	height: 396px;
+}
+
+.sburesearch-workstation-fullscreen-and-code{
+	background-position: 0 0;
+	width: 396px;
+	height: 396px;
+}
+

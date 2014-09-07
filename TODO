@@ -6,5 +6,7 @@ Tasks to be done in next releases
 
     * REMEMBER: git rm $(git ls-files --deleted)
 
-1. phongvcaocom - 2.0 - Current Version:
+1. phongvcaocom - 2.5 - Current Version:
 --------------------------------------------------
+
+- Upgrade all libraries used in the site to newer versions

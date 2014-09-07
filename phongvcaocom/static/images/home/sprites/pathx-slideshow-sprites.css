@@ -1,0 +1,70 @@
+.pathx-fullscreen-dev-mode, .pathx-fullscreen-dev-mode-0, .pathx-gameplay-leave, .pathx-gameplay-lost, .pathx-gameplay-specials-disabled, .pathx-gameplay-specials-enabled, .pathx-gameplay-won, .pathx-home-screen, .pathx-level-select-screen, .pathx-reset-screen, .pathx-settings-screen{
+	background: url(sprites.png) no-repeat;
+}
+
+.pathx-fullscreen-dev-mode{
+	background-position: 0 -400px ;
+	width: 396px;
+	height: 396px;
+}
+
+.pathx-fullscreen-dev-mode-0{
+	background-position: -400px 0;
+	width: 396px;
+	height: 396px;
+}
+
+.pathx-gameplay-leave{
+	background-position: 0 -800px ;
+	width: 396px;
+	height: 396px;
+}
+
+.pathx-gameplay-lost{
+	background-position: -1200px -400px ;
+	width: 396px;
+	height: 396px;
+}
+
+.pathx-gameplay-specials-disabled{
+	background-position: -1200px 0;
+	width: 396px;
+	height: 396px;
+}
+
+.pathx-gameplay-specials-enabled{
+	background-position: 0 0;
+	width: 396px;
+	height: 396px;
+}
+
+.pathx-gameplay-won{
+	background-position: -400px -800px ;
+	width: 396px;
+	height: 396px;
+}
+
+.pathx-home-screen{
+	background-position: -800px 0;
+	width: 396px;
+	height: 396px;
+}
+
+.pathx-level-select-screen{
+	background-position: -400px -400px ;
+	width: 396px;
+	height: 396px;
+}
+
+.pathx-reset-screen{
+	background-position: -800px -800px ;
+	width: 396px;
+	height: 396px;
+}
+
+.pathx-settings-screen{
+	background-position: -800px -400px ;
+	width: 396px;
+	height: 396px;
+}
+
