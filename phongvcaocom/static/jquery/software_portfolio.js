@@ -127,9 +127,17 @@ $(window).load(function() {
                 break;
             }
 
+            case 1: {
+                break;
+            }
+
             case 2: {
                 window.open("https://github.com/phongvcao/dingo", "_blank");
 
+                break;
+            }
+
+            case 3: {
                 break;
             }
 
