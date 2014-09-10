@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $("#resume").fancybox({
         fitToView : false,
-        width : 855,
-        height : 542,
+        width : 875,
+        height : 562,
         autoSize : false,
         closeClick : false,
         openEffect : 'elastic',

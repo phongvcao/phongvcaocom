@@ -7,9 +7,9 @@
 
 - First move the whole document so that the last line of the resume
   touches the last line of the page.
-- Then move the whole top section above each header line, 
+- Then move the whole top section above each header line,
   each moves 5 "up"
-- Then move the whole top section above each header, 
+- Then move the whole top section above each header,
   each moves 4 "up"
 - After finished move the BIG TOP HEADER up so that it touches
   the blue line
@@ -18,7 +18,7 @@
   above the last line of the page.
 
 2. EXPORT:
-- As Image: 93 dpi
+- As Image: 95 dpi
 - As PDF: 300 dpi
 
 3. RESUME KEYWORDS:
