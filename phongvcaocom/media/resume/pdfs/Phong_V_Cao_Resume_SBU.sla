@@ -486,7 +486,7 @@
             <para LINESP="11.5" FIRST="0">
                 <Tabs Type="0" Pos="0" Fill=""/>
             </para>
-            <ITEXT FONT="Georgia Italic" FONTSIZE="9" CH="                                         System-Level Programming"/>
+            <ITEXT FONT="Georgia Italic" FONTSIZE="9" CH="                                          System-Level Programming"/>
             <ITEXT CH=", "/>
             <ITEXT FONT="Georgia Italic" FONTSIZE="9" CH="Discrete Mathematics, Calculus, Statistics &amp; Probability, Linear Algebra"/>
             <trail LINESP="11.5" FIRST="0">
