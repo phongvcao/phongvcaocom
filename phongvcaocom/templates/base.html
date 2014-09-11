@@ -1,64 +1,83 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    {% if social_site_name %}
-      <meta http-equiv="refresh" content="0; url={{ social_site_url }}">
-    
-      <title>Phong V. Cao &rsaquo;&rsaquo; {{ social_site_name }}</title>
-    
-      <link rel="shortcut icon" href="http://g.etfv.co/{{ social_site_url }}?defaulticon=http://www.phongvcao.com/static/images/base/favicon.ico" type="image/x-icon" />
-    {% else %}
-      <title>{% block title %}{% endblock %}</title>
-    
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    
-      <link rel="shortcut icon" href="/static/images/base/favicon.ico" type="image/x-icon" />
-    
-      {% block fonts %}{% endblock %}
-    
-      <link rel="stylesheet" type="text/css" href="/static/css/base.css" />
-    {% endif %}
-    
-    {% block libs %}{% endblock %}
-    
-    {% block static %}{% endblock %}
-    
-    <noscript>
-      <div id="noscript">
-        <p class="noscript">
-          WARNING: Your web browser's JavaScript was DISABLED.
-        </p>
-      
-        <p class="noscript">
-          This webpage needs JavaScript ENABLED to function 
-          properly.
-        </p>
-      
-        <p class="noscript">
-          <a href="http://www.activatejavascript.org/" target="_blank" style="text-decoration:underline; color:blue;">Please click here</a> for instruction on how to ENABLE 
-          JavaScript in your browser.
-        </p>
-      </div>
-    </noscript>
-    
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-33166297-2']);
-      _gaq.push(['_trackPageview']);
+<head>
+{% if social_site_name %}
+<meta http-equiv="refresh" content="0; url={{ social_site_url }}">
 
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-  </head>
-  
-  <body>
-    <div id="main-body">
-    {% block content %}{% endblock %}
+<title>Phong V. Cao &rsaquo;&rsaquo; {{ social_site_name }}</title>
+
+<link rel="shortcut icon" href="http://g.etfv.co/{{ social_site_url }}?defaulticon=http://www.phongvcao.com/static/images/base/favicon.ico" type="image/x-icon" />
+{% else %}
+<title>{% block title %}{% endblock %}</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<link rel="shortcut icon" href="/static/images/base/favicon.ico" type="image/x-icon" />
+
+{% block fonts %}{% endblock %}
+
+<link rel="stylesheet" type="text/css" href="/static/css/base.css" />
+{% endif %}
+
+{% block libs %}{% endblock %}
+
+{% block static %}{% endblock %}
+
+<noscript>
+    <div id="noscript">
+        <p class="noscript">
+        WARNING: Your web browser's JavaScript was DISABLED.
+        </p>
+
+        <p class="noscript">
+        This webpage needs JavaScript ENABLED to function
+        properly.
+        </p>
+
+        <p class="noscript">
+        <a href="http://www.activatejavascript.org/" target="_blank" style="text-decoration:underline; color:blue;">Please click here</a> for instruction on how to ENABLE
+        JavaScript in your browser.
+        </p>
     </div>
-  </body>
+</noscript>
+
+
+<script type="text/javascript">
+var loadedGoogleAnalytics = 0;
+var gaClone;
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-33166297-2']);
+_gaq.push(['_trackPageview']);
+
+_gaq.push(function() {
+        loadedGoogleAnalytics = 1;
+        //console.log('GA Actualy executed!');
+        });
+
+(function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+ gaClone = ga;
+
+ })();
+
+setTimeout(function() {
+        //console.log('timeout fired');
+        if (loadedGoogleAnalytics != 1) {
+        gaClone.parentNode.removeChild(gaClone);
+        }
+        }, 5000);
+</script>
+
+</head>
+
+<body>
+<div id="main-body">
+    {% block content %}{% endblock %}
+</div>
+</body>
 </html>
