@@ -29,7 +29,7 @@ $(window).load(function() {
             }
 
             case 1: {
-                window.open("http://www.mediafire.com/?40hq72meiijhk", "_blank");
+                window.open("http://www.mediafire.com/download/zuffdeh3cj7zvsd/PathX.zip", "_blank");
 
                 break;
             }
