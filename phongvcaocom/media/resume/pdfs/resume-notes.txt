@@ -18,7 +18,8 @@
   above the last line of the page.
 
 2. EXPORT:
-- As Image: 95 dpi
+- As Image: 95 dpi (jpg)
+            300 dpi (png)
 - As PDF: 300 dpi
 
 3. RESUME KEYWORDS:
